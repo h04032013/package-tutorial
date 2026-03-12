@@ -1,8 +1,8 @@
 [project]
-name = "example_package_YOUR_USERNAME_HERE"
+name = "haylin"
 version = "0.0.1"
 authors = [
-  { name="Example Author", email="author@example.com" },
+  { name="Haylin Diaz", email="hdiaz@g.harvard.edu" },
 ]
 description = "A small example package"
 readme = "README.md"
@@ -14,6 +14,10 @@ classifiers = [
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
 
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
 [project.urls]
-Homepage = "https://github.com/pypa/sampleproject"
-Issues = "https://github.com/pypa/sampleproject/issues"
+Homepage = "https://github.com/h04032013/package-tutorial"
+Issues = "https://github.com/h04032013/package-tutorial/issues"
